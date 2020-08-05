@@ -29,19 +29,11 @@ The Browser package can also be installed using a traditional `<script>` tag. Co
 
 The library's methods will be available on the global `SimpleWebAuthnBrowser` object.
 
-## Methods
+## Quick Start
 
-The following methods are exported from **@simplewebauthn/browser**:
+### Attestation
 
-### `startAttestation()`
-
-"Attestation" is analogous to new account registration. Attestation in the front end uses the following exported methods from this package:
-
-```js
-import { startAttestation } from '@simplewebauthn/browser';
-```
-
-The front end's primary job during attestation is the following:
+"Attestation" is analogous to new account registration. The front end's primary job during attestation is the following:
 
 1. Get attestation options from the Relying Party (your server)
     - See [@simplewebauthn/server's `generateAttestationOptions()`](packages/server.md#1-generate-attestation-options)
@@ -118,15 +110,9 @@ That said, this general sequence of events should be easily adaptable to the fro
 </script>
 ```
 
-### `startAssertion()`
+### Assertion
 
-"Assertion" is analogous to existing account login. Assertion in the front end uses the following exported methods from this package:
-
-```js
-import { startAssertion } from '@simplewebauthn/browser';
-```
-
-The front end's primary job during assertion is the following:
+"Assertion" is analogous to existing account login. The front end's primary job during assertion is the following:
 
 1. Get assertion options from the Relying Party (your server)
     - See [@simplewebauthn/server's `generateAssertionOptions()`](packages/server.md#1-generate-assertion-options)
@@ -197,6 +183,16 @@ That said, this general sequence of events should be easily adaptable to the fro
   });
 </script>
 ```
+
+## Methods
+
+The following methods are exported from **@simplewebauthn/browser**:
+
+### `startAttestation()`
+
+
+### `startAssertion()`
+
 
 ### `supportsWebauthn()`
 
