@@ -71,7 +71,7 @@ supportsWebauthn(): boolean
 
 #### Returns
 
-- `boolean`
+- **boolean**
 
 #### Notes
 
