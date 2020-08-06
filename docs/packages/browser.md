@@ -29,9 +29,7 @@ The Browser package can also be installed using a traditional `<script>` tag. Co
 
 The library's methods will be available on the global `SimpleWebAuthnBrowser` object.
 
-## Quick Start
-
-### Attestation
+## Attestation
 
 "Attestation" is analogous to new account registration. The front end's primary job during attestation is the following:
 
@@ -110,7 +108,7 @@ That said, this general sequence of events should be easily adaptable to the fro
 </script>
 ```
 
-### Assertion
+## Assertion
 
 "Assertion" is analogous to existing account login. The front end's primary job during assertion is the following:
 
