@@ -94,4 +94,9 @@ A helper method to check for the browser's ability to make WebAuthn API calls. `
 </script>
 ```
 
-## Server
+## @simplewebauthn/server
+
+### `generateAttestationOptions`
+### `verifyAttestationResponse`
+### `generateAssertionOptions`
+### `verifyAssertionResponse`
