@@ -3,6 +3,7 @@ module.exports = {
     SimpleWebAuthn: [
       'simplewebauthn/intro',
       'simplewebauthn/philosophy',
+      'api-docs',
     ],
     'Quick Starts': [
       'packages/server',
