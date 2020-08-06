@@ -40,7 +40,7 @@ startAssertion(requestOptionsJSON): Promise<AssertionCredentialJSON>
 
 #### Arguments
 
-- `requestOptionsJSON`: The return value from [`generateAssertionOptions()`](#)
+- `requestOptionsJSON`: The return value from [`generateassertionoptions`](#)
 
 #### Returns
 
