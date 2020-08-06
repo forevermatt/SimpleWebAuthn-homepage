@@ -28,7 +28,7 @@ startAttestation(creationOptionsJSON): Promise<AttestationCredentialJSON>
 
 #### Notes
 
-The return value is the exact response from the authenticator with a few `Buffer`'s encoded to base64url. It should be passed straight into [`verifyAttestationResponse`](#verifyattestationresponse) as `options.credential`.
+The return value is the exact response from the authenticator with a few `Buffer`'s encoded to base64url strings. It should be passed straight into [`verifyAttestationResponse`](#verifyattestationresponse) as `options.credential`.
 
 ### `startAssertion`
 
@@ -55,7 +55,7 @@ startAssertion(requestOptionsJSON): Promise<AssertionCredentialJSON>
 
 #### Notes
 
-The return value is the exact response from the authenticator with a few `Buffer`'s encoded to base64url. It should be passed straight into [`verifyAssertionResponse`](#verifyassertionresponse) as `options.credential`.
+The return value is the exact response from the authenticator with a few `Buffer`'s encoded to base64url strings. It should be passed straight into [`verifyAssertionResponse`](#verifyassertionresponse) as `options.credential`.
 
 ### `supportsWebauthn`
 
