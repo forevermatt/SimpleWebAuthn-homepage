@@ -97,6 +97,53 @@ A helper method to check for the browser's ability to make WebAuthn API calls. `
 ## @simplewebauthn/server
 
 ### `generateAttestationOptions`
+
+#### Signature
+
+```ts
+```
+
+#### Arguments
+
+#### Returns
+
+#### Notes
+
 ### `verifyAttestationResponse`
+
+#### Signature
+
+```ts
+```
+
+#### Arguments
+
+#### Returns
+
+#### Notes
+
 ### `generateAssertionOptions`
+
+#### Signature
+
+```ts
+```
+
+#### Arguments
+
+#### Returns
+
+#### Notes
+
 ### `verifyAssertionResponse`
+
+#### Signature
+
+```ts
+```
+
+#### Arguments
+
+#### Returns
+
+#### Notes
